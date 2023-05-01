@@ -51,5 +51,10 @@ namespace Inventory_System
         {
             openChildForm(new RecommendationForm());
         }
+
+        private void customerButton1_Click(object sender, EventArgs e)
+        {
+            openChildForm(new UserForm());
+        }
     }
 }

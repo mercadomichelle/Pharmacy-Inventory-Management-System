@@ -61,6 +61,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1138, 32);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnAdd
             // 
@@ -86,6 +87,7 @@
             this.label1.Size = new System.Drawing.Size(205, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Manage Medicine Information";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // dgvMed
             // 

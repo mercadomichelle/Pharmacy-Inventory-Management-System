@@ -2,21 +2,21 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace Inventory_System
 {
-    public partial class StocksOnHandModuleForm : Form
+    public partial class UserModuleForm : Form
     {
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\63936\Documents\Database.mdf;Integrated Security=True;Connect Timeout=30");
-        SqlCommand cm = new SqlCommand();     
-        
-        public StocksOnHandModuleForm()
+        SqlCommand cm = new SqlCommand();
+
+        public UserModuleForm()
         {
             InitializeComponent();
         }
@@ -30,14 +30,18 @@ namespace Inventory_System
         {
             try
             {
+                if (txtPass.Text != txtRePass.Text)
+                { 
+                    MessageBox.Show("Password did not match!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning); 
+                    return;
+                }
                 if (MessageBox.Show("Are you sure you want to save this data?", "Saving Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    cm = new SqlCommand("INSERT INTO tblStocks(stocksID, mfgDateS, expDateS, medVitaID, stocksS) VALUES(@stocksID, @mfgDateS, @expDateS, @medVitaID, @stocksS)", con);
-                    cm.Parameters.AddWithValue("@stocksID", txtStocksID.Text);
-                    cm.Parameters.AddWithValue("@mfgDateS", txtMfgDateS.Text);
-                    cm.Parameters.AddWithValue("@expDateS", txtExpDateS.Text);
-                    cm.Parameters.AddWithValue("@medVitaID", txtMedVitaID.Text);
-                    cm.Parameters.AddWithValue("@stocksS", txtStocksS.Text);
+                    cm = new SqlCommand("INSERT INTO tblUser1(username, name, pass, userID) VALUES(@username, @name, @pass, @userID)", con);
+                    cm.Parameters.AddWithValue("@username", txtUsername.Text);
+                    cm.Parameters.AddWithValue("@name", txtName.Text);
+                    cm.Parameters.AddWithValue("@pass", txtPass.Text);
+                    cm.Parameters.AddWithValue("@userID", txtUserID.Text);
 
                     con.Open();
                     cm.ExecuteNonQuery();
@@ -48,17 +52,16 @@ namespace Inventory_System
             }
             catch (Exception ex)
             {
-
                 MessageBox.Show(ex.Message);
             }
         }
-        public void Clear() 
-        { 
-            txtStocksID.Clear();
-            txtMfgDateS.Clear();
-            txtExpDateS.Clear();
-            txtMedVitaID.Clear();
-            txtStocksS.Clear();
+        public void Clear()
+        {
+            txtUsername.Clear();
+            txtName.Clear();
+            txtPass.Clear();
+            txtRePass.Clear();
+            txtUserID.Clear();
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -72,13 +75,17 @@ namespace Inventory_System
         {
             try
             {
+                if (txtPass.Text != txtRePass.Text)
+                {
+                    MessageBox.Show("Password did not match!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 if (MessageBox.Show("Are you sure you want to update this data?", "Update Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
-                    cm = new SqlCommand("UPDATE tblStocks SET mfgDateS=@mfgDateS, expDateS=@expDateS, medVitaID=@medVitaID, stocksS=@stocksS WHERE stocksID LIKE '" + txtStocksID.Text + "' ", con);
-                    cm.Parameters.AddWithValue("@mfgDateS", txtMfgDateS.Text);
-                    cm.Parameters.AddWithValue("@expDateS", txtExpDateS.Text);
-                    cm.Parameters.AddWithValue("@medVitaID", txtMedVitaID.Text);
-                    cm.Parameters.AddWithValue("@stocksS", txtStocksS.Text);
+                    cm = new SqlCommand("UPDATE tblUser1 SET username=@username, @name=@name, pass=@pass WHERE userID LIKE '" + txtUserID.Text + "' ", con);
+                    cm.Parameters.AddWithValue("@username", txtUsername.Text);
+                    cm.Parameters.AddWithValue("@name", txtName.Text);
+                    cm.Parameters.AddWithValue("@pass", txtPass.Text);
 
                     con.Open();
                     cm.ExecuteNonQuery();

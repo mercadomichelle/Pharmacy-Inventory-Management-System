@@ -13,6 +13,8 @@ C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_Sys
 C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.RecommendationModuleForm.resources
 C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.StocksOnHandForm.resources
 C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.StocksOnHandModuleForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.UserForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.UserModuleForm.resources
 C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.VitaminsForm.resources
 C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.VitaminsModuleForm.resources
 C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory System.csproj.GenerateResource.cache

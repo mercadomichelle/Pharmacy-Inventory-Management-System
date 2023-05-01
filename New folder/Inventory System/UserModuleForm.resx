@@ -121,7 +121,7 @@
   <data name="pictureBoxClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAB6ISURBVHhe7d3d
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAB6ISURBVHhe7d3d
         j6Z3edhxA0kPSiAvbc/atH9AqyaBqOkZlSChorjY4ye7trGDksqyObIAYRHL8YqqEq2aAxB1sdSTpBSU
         /guJ5AUbasDC2OsXDDjkAPAbfoNd7669nru/e+aasJ69bO/LPPdz37/r85U+soXM7szuNb/rN8/zzMxl
         kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ
@@ -253,22 +253,6 @@
         SZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
         SZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk
         Seqyyy77/++ssnMH+iNTAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="Logo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAlxJREFUaEPt
-        2LmKFEEcx/FRIxMVFn0Cxdhjcw28EbwvxFhfwUAxUvB6BFNDjwcQxchcX0FNFA/QSP3+hq6mrPntTHd1
-        7dpI/eADTc2/uqqma7p7d1JTU1Pz32UzduMoTjV0rDZ9Ntqsx15cwMUV6LM9UO2oognth5u0sw+jWsQy
-        3ETn0dUaRbZg3rZZifqM4jehPe0m2IV+2MWjvbkdh3C6oWO1uX17DG5yXejulKbv+H9lIw7DDSb6TDVx
-        zsLVdnEGcXLGb7MBR+A6xnSS+JsotYDc8dvshOvgqDak1BbKHb+N9pkrdg4iRD9EV9PFLoTkjt+mz1aI
-        L71uhbm30U0IyR2/zZAT5FyF+NtXBi+gzyU8gDj6UfV9lViHOEPGn2YHXLGj2jRaxJCXuaHjT0866DbW
-        JH6dPtfo8jpdZPxBD5ICKTK+Vhce5ecbOu70KC+Qfz1+zZpkG27iDT7id+I20v17B2md+uocN7AVa5JL
-        +I50MrH3uIIweR2rzdUG36D9vqrR0/IX3ARSjxEWoGNXk9K59V+MVYku8Re4gZ1nCAt43rR18RlLyI7+
-        AnqFT3ADdHUfYQEPmrZcmstLLLw6D+FOkOMqwgKuNW0l3IWNvnnXIccHhMkHanO1OU5gJto2rjjHa6QL
-        UJurzfECM1l0a+zjEdIFqM3V5viKmZRcwHWkC1Cbq81hF1BqC/3EZaQLUJs+c336slvoOFxxX2+RTj54
-        B9enL/cPsWluwXXo4wnc5OUpXJ8+9N40N+FB9gPuBIvoPu0mL/fg+iyiuehBdhI1NTU1NTVNJpM/V9ti
-        0B/FbxIAAAAASUVORK5CYII=
 </value>
   </data>
 </root>
