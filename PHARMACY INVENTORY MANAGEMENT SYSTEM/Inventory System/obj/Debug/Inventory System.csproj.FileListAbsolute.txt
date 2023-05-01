@@ -1,0 +1,23 @@
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\bin\Debug\Inventory System.exe.config
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\bin\Debug\Inventory System.exe
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\bin\Debug\Inventory System.pdb
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory System.csproj.AssemblyReference.cache
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory System.csproj.SuggestedBindingRedirects.cache
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.CustomerButton.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.LoginForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.MainForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.Properties.Resources.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.MedicineForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.MedicineModuleForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.RecommendationForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.RecommendationModuleForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.StocksOnHandForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.StocksOnHandModuleForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.UserForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.UserModuleForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.VitaminsForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory_System.VitaminsModuleForm.resources
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory System.csproj.GenerateResource.cache
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory System.csproj.CoreCompileInputs.cache
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory System.exe
+C:\Users\63936\Desktop\ADBMS\New folder\Inventory System\obj\Debug\Inventory System.pdb
